@@ -1,0 +1,13 @@
+/* components/Dashboard.css */
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    text-align: center;
+}
+
+.dashboard h1 {
+    color: #333;
+}

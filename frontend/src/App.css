@@ -1,0 +1,46 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+}
+
+h1 {
+    font-size: 3rem;
+    display: inline-block;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+    animation: trace 2s forwards;
+}
+
+@keyframes trace {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+input,
+button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+form {
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
